@@ -1,4 +1,6 @@
-﻿namespace PZ_04
+﻿using System;
+
+namespace PZ_04
 {
 internal class Program
 {

@@ -31,7 +31,7 @@
 
             double circleArea, sphereVolume, sphereSurfaceArea;
 
-            // Вызываем методы для расчета
+            // Вызываем методы, которые принимают значение радиуса и выводят результаты расчетов
             GetCircleArea(radius, out circleArea);
             GetSphereVolume(radius, out sphereVolume);
             GetSphereSurfaceArea(radius, out sphereSurfaceArea);

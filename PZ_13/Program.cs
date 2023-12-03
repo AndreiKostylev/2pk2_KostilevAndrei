@@ -23,7 +23,7 @@
             if (n != 0)
             {
                 res = a + d * (n - 1);
-                ArifmProgr(n - 1, a, res);
+                ArifmProgr(n - 1, a, res); // Рекурсия
             }
             return res;
         }
@@ -34,7 +34,7 @@
             if (n != 0)
             {
                 res = b * Math.Pow(q, n - 1);
-                GeomProgr(n - 1, b, res);
+                GeomProgr(n - 1, b, res); // Рекурсия
             }
             return res;
         }
@@ -44,7 +44,7 @@
             if (A != B) // База
             {
                 Console.Write($"{A}, ");
-                NumbersComp(A - 1, B);
+                NumbersComp(A - 1, B); // Рекурсия
             }
             return B;
         }
@@ -57,7 +57,7 @@
                 return;
             }
             Console.Write(num % 10);
-            Reverse(num / 10);
+            Reverse(num / 10); // Рекурсия
 
         }
     }
